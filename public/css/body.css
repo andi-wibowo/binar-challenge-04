@@ -1,0 +1,523 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+	background-color: none;
+}
+#ourservices{
+  background-color: #F1F3FF;
+}
+.navbar{
+  background-color: #F1F3FF;
+}
+
+.bg-hijau{
+  background-color: #5CB85F !important;
+  transition: 0.3s;
+}
+
+.bg-hijau:hover {
+  background-color:green !important;
+}
+
+.desc{
+    max-width: 400px;
+}
+.teks{
+  font-size: 15px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.tebel-banget {
+  font-weight: 900;
+  font-size: 35px;
+}
+
+.tebel-sedang {
+  font-weight: bold;
+}
+
+.testimoni-tebel {
+  text-align: center;
+  font-weight: 900;
+  font-size: 35px;
+}
+
+.testi{
+  text-align: center;
+  font-size: 20px;
+}
+
+.img-text{
+  width: 100%;
+  height: 300px;
+  display: block;
+  padding: 40% 5%;
+  background: #F1F3FF;
+  color: black;
+  border-radius: 15px;
+}
+
+.img-text p{
+  text-align: left;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.img-text h2{
+  font-style: italic;
+  font-size: 12px;
+  text-align: left;
+}
+
+.img-text .fa-star{
+  color: orange;
+}
+.img-text .fa-star-half{
+  color: orange;
+}
+
+.single-box{
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.img-area{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+  overflow: hidden;
+  top: 15px;
+  left: 165px;
+  border-radius: 50%;
+}
+
+.img-area img{
+  width: 100%;
+}
+
+.carousel-indicators{
+  left: 0;
+  top: auto;
+  bottom: -50px;
+}
+
+.btn-secondary-teks{
+  text-align: left;
+  width: 600px;
+  color: black;
+  border-color: black;
+}
+.dropdown-toggle-split{
+  color: black;
+  background: none;
+}
+
+.dropdown-menu{
+  text-align: left;
+  font-size: 13px;
+  width: 700px;
+  background: whitesmoke;
+}
+
+.button {
+    background-color: #5CB85F;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    transition: 0.3s;
+  }
+  
+  .button:hover {
+    background-color: green;
+    color: white;
+  }
+
+.img{
+  width: 700px;
+}
+
+.orang{
+  width: 80%;
+  height: 100%;
+}
+
+.link{
+  color: black;
+  transition: 0.3s;
+}
+
+.link:hover{
+  color: grey;
+}
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.container{
+	width: 100%;
+  padding-right: 5px;
+  padding-left: 5px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.row{
+	display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: none;
+  padding: 100px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: black;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 70px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: black;
+	text-decoration: none;
+	font-weight: 300;
+	color: black;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: grey;
+	padding-left: 5px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgb(15, 15, 146);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: white;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: black;
+	background-color: rgb(46, 46, 230);
+}
+
+/* Cari.html */
+.cari-hasil{
+  z-index: 2;
+  margin-top: -4em;
+}
+.cari-card{
+  border-radius: 10px;
+}
+.tanggal-cari{
+  width: 300px;
+  height: 37px;
+}
+.form-select{
+  border-color: black;
+}
+
+/* Hasi.html */
+.hasil-cari{
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.tombol-hasil{
+  background-color: #5CB85F;
+  color: white;
+  border: none;
+  transition: 0.3s;
+  text-decoration: none;
+  width: 255px;
+}
+.tombol-hasil:hover{
+  background-color: green;
+  color: white;
+}
+
+@media (min-width: 250px) and (max-width: 299px) {
+  .img{
+    width: 250px;
+    height: auto;
+  }
+  .gambar{
+    display: block;
+  }
+  .tebel-banget{
+    font-size: 30px;
+  }
+  .desc{
+    font-size: 11px;
+  }
+  .card-title{
+    font-size: 20px;
+  }
+  .card-text{
+    font-size: 15px;
+  }
+  .card{
+    width: 10px;
+  }
+  .card-title-judul{
+    font-size: 25px;
+  }
+  .card-text-teks{
+    font-size: 13px;
+  }
+  .card-aja{
+    padding-top: 5%;
+  }
+  .testi{
+    font-size: 14px;
+  }
+  .img-area{
+    top: 10px;
+    left: 83px;
+    width: 33%;
+    height: 30%;
+  }
+  .single-box{
+    height: 280px;
+  }
+  /* Cari html */
+  .cari-card{
+    border-radius: 10px;
+    width: auto;
+  }
+  .cari-hasil{
+    margin-left: 0em;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 399px) {
+  .img{
+    width: 300px;
+    height: auto;
+  }
+  .gambar{
+    display: block;
+  }
+  .desc{
+    font-size: 13px;
+  }
+  .card{
+    width: 10px;
+  }
+  .testi{
+    font-size: 15px;
+  }
+  .img-area{
+    top: 10px;
+    left: 100px;
+  }
+  .cari-card{
+    border-radius: 10px;
+    width: auto;
+  }
+  .cari-hasil{
+    margin-left: 0em;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 499px) {
+  .img{
+    width: 400px;
+    height: auto;
+  }
+  .tebel-banget{
+    font-size: 45px;
+  }
+  .gambar{
+    display: block;
+  }
+  .card-aja{
+    padding-top: 5%;
+  }
+  .img-area{
+    top: 20px;
+    left: 150px;
+  }
+  .cari-card{
+    border-radius: 10px;
+    width: auto;
+  }
+  .cari-hasil{
+    margin-left: 0em;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 599px) {
+  .img{
+    width: 500px;
+    height: auto;
+  }
+  .tebel-banget{
+    font-size: 50px;
+  }
+  .desc{
+    font-size: 18px;
+  }
+  .gambar{
+    display: block;
+  }
+  .card-aja{
+    padding-top: 4%;
+  }
+  .img-area{
+    top: 35px;
+    left: 200px;
+  }
+  .cari-card{
+    border-radius: 10px;
+    width: auto;
+  }
+  .cari-hasil{
+    margin-left: 0em;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 699px) {
+  .img{
+    width: 572px;
+    height: auto;
+  }
+  .tebel-banget{
+    font-size: 45px;
+  }
+  .desc{
+    font-size: 18px;
+  }
+  .gambar{
+    display: block;
+  }
+  .card-aja{
+    padding-top: 3%;
+  }
+  .img-area{
+    top: 50px;
+    left: 220px;
+  }
+  .single-box{
+    height: 420px;
+  }
+  .cari-card{
+    border-radius: 10px;
+    width: auto;
+  }
+  .cari-hasil{
+    margin-left: 0em;
+  }
+}
+
+@media (min-width: 700px) and (max-width: 770px) {
+  .img{
+    width: 620px;
+    height: auto;
+  }
+  .tebel-banget{
+    font-size: 45px;
+  }
+  .desc{
+    font-size: 15px;
+  }
+  .gambar{
+    display: block;
+  }
+  .card-aja{
+    padding-top: 2%;
+  }
+  .single-box{
+    height: 420px;
+  }
+  .cari-card{
+    border-radius: 10px;
+    width: auto;
+  }
+  .cari-hasil{
+    margin-left: 0em;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 899px) {
+  .img{
+    display: block;
+  }
+  .tebel-banget{
+    font-size: 50px;
+  }
+  .desc{
+    font-size: 18px;
+  }
+  .gambar{
+    display: block;
+  }
+  .card-aja{
+    padding-top: 4%;
+  }
+  .img-area{
+    top: 10px;
+    left: 75px;
+    height: 26%;
+    width: 35%;
+  }
+  .cari-card{
+    border-radius: 10px;
+    width: auto;
+  }
+  .cari-hasil{
+    margin-left: 0em;
+  }
+}
+
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}

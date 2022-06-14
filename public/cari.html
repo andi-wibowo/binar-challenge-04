@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="bs5/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+        <link rel="stylesheet" href="css/body.css">
+        <title>Challenge-04</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="assets/vector-logo.png" height="100%">
+                </a>
+                <button class="navbar-toggler mb-4" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="nav nav-pills">
+                        <li class="nav-item">
+                            <a class="nav-link link tebel-sedang" href="#">Our Services &nbsp;&nbsp;</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link tebel-sedang" href="#">Why Us &nbsp;&nbsp;</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link tebel-sedang" href="#">Testimonial &nbsp;&nbsp;</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link tebel-sedang" href="#">FAQ &nbsp;&nbsp;</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active tebel-sedang bg-hijau" href="#">Register</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <main>
+        <section id="ourservices">
+        <div class="container"> 
+            <div class="row">
+                <div class="col-lg-6 col-md-6 mt-5">
+                    <h1 class="tebel-banget"><b>Sewa & Rental Mobil Terbaik di<p>Kawasan (Lokasimu )</p></b></h1>
+                    <div class="desc mt-4">
+                        <p>Selamat datang di Binar Car Rental. Kami menyediakan mobil kualitas terbaik dengan harga terjangkau. Selalu siap melayani 
+                            kebutuhanmu untuk sewa mobil selama 24 jam.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 mt-5">
+                    <img src="assets/mobil-1.png" class="img">
+                </div>  
+            </div>
+        </div>
+        </section>
+        </main>
+        <div class="container cari-hasil">
+            <div class="row">
+                <div class="col-md-12 col-lg-12">
+            <div class="card shadow cari-card">
+                <div class="card-body">
+                    <div class="container">
+                        <div class="row">
+                    <div class="col-lg-3 col-md-3 mt-3">
+                        <label for="" class="type">Tipe Driver</label>
+                        <select id="driver" class="form-select type-content" onclick="getValueDriver()">
+                            <option selected disabled>Pilih Tipe Driver</option>
+                            <option value="Dengan Supir">Dengan Supir</option>
+                            <option value="Tanpa Supir (Lepas Kunci)">Tanpa Supir (Lepas Kunci)</option>
+                        </select>
+                    </div>
+                    <div class="col-lg-3 col-md-2 mt-3">
+                        <label for="" class="type">Tanggal</label>
+                            <input id="tanggal" type="date" onclick="getValueTanggal()" class="tanggal-cari">
+                    </div>
+                    <div class="col-lg-3 col-md-2 mt-3">
+                        <label for="" class="type">Waktu Jemput/Ambil</label>
+                        <select id="waktu" class="form-select type-content" onclick="getValueWaktu()">
+                            <option selected disabled>Pilih Waktu</option>
+                            <option value="08:00">08:00 WIB</option>
+                            <option value="09:00">09:00 WIB</option>
+                            <option value="10:00">10:00 WIB</option>
+                            <option value="11:00">11:00 WIB</option>
+                            <option value="12:00">12:00 WIB</option>
+                        </select>
+                    </div>
+                    <div class="col-lg-3 col-md-3 mt-3">
+                        <label for="" class="type">Jumlah Penumpang (optional)</label>
+                        <select id="jumlah" class="form-select type-content" onclick="getValueJumlah()">
+                            <option selected disabled>Jumlah Penumpang</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
+                    </div>
+                    <div class="col-md-12 col-lg-12 mt-4">
+                    <a href="hasil.html"><button type="button" class="btn btn-success tebel-sedang bg-hijau">Cari Mobil</button></a>
+                    </div>
+                    </div>
+                </div>
+                </div>
+                </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col">
+                        <h4>company</h4>
+                        <ul>
+                            <li>Jalan Suroyo No. 161 Mayangan Kota Probolinggo 67200</li>
+                            <li>binarcarrental@gmail.com</li>
+                            <li>081-233-334-808</li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>get help</h4>
+                        <ul>
+                            <li><a href="#ourservices">Our Services</a></li>
+                            <li><a href="#why">Why Us</a></li>
+                            <li><a href="#testi">Testimonial</a></li>
+                            <li><a href="#faq">FAQ</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Connect with us</h4>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-telegram"></i></a>
+                            <a href="#"><i class="fab fa-twitch"></i></a>
+                        </div>
+                    </div>
+                    <div class="footer-col">
+                        <h4>&copy; Copyright Binar 2022</h4>
+                        <ul>
+                            <li><a href="index.html"><img src="assets/vector-logo.png" height="100%"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="bs5/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="./js/script.js"></script>
+    </body>
+</html>
